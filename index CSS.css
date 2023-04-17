@@ -1,0 +1,101 @@
+/* geral */
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+    background-image: url('../img/1533312393986a971fd.webp');
+    background-size: cover;
+}
+
+textarea:focus, input:focus {
+outline: none;
+}
+
+a, label {
+    font-size:  .8rem; 
+}
+
+a:hover {
+    color: blue;
+}
+
+/* container login */
+
+#login-container {
+    background-color:rgb(255, 255, 255);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 70px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* formulario */
+
+form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+    label, input {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    label {
+        font-weight: bold;
+        text-align: left;
+    }
+
+    input {
+        border-bottom: 2px solid #2914e7;
+        padding: 10px;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    input:focus {
+        border-bottom: 2px solid #08558b;
+    }
+
+    #forgot-pass {
+        text-align: right;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    input [type="submit"] {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        border: none;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 30px;
+        color: rgb(26, 11, 236);
+        background-color: #08558b;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #1b223c;
+        transition: 1s;
+    }
+
+    /* registrar */
+
+    #register-container p {
+        margin-bottom: 10px;
+        text-align: center;
+        display: block;
+    }
+
